@@ -1,0 +1,50 @@
+.row {
+	max-width: 1000px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+
+/* clearfix hack */
+.row::before, .row::after {
+	display: table;
+	content: '';
+} 
+
+.row::after {
+	clear: both;
+}
+
+
+div [class*="col-"]{
+	float: left;
+	padding-left:  1.04166666%;
+	padding-right: 1.04166666%;
+}
+
+.col-answer {
+  width: 100%;
+}
+.col-12{
+	width: 100%;
+	vertical-align: middle;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+/* non mobile grid */
+@media only screen and (min-width: 640px) {
+
+  .col-answer {
+    width: 50%;
+  }
+
+	.col-12 {
+		width: 100%;
+	}
+
+}

@@ -1,0 +1,343 @@
+* { 
+    box-sizing: border-box;
+    }
+     
+    html {
+      font-size: 62.5%; /* font-size 1em = 10px on default browser settings */
+    }
+     
+    body {
+      background-color: #163039;
+      font-family: 'Play', Sans-Serif;
+      background: url(http://badgerheadgames.com/wp-content/uploads/2018/01/backgroundimg.jpg) repeat-y;
+      color: white;
+      margin: 0;
+      font-size: 1rem;
+      font-family: 'Afacad Flux', sans-serif;
+    }
+    
+    header {
+      background-color: grey;
+    }
+    
+    .show-section {
+      display: block;
+    }
+    
+    .hide-section {
+      display: none;
+    }
+    
+    .show-section-table {
+      display: table;
+    }
+    
+    .box {
+      border-style: solid;
+      border-width: 1px;
+      border-radius: 4px;
+      border-color: grey;
+      height: 200px;
+      padding: 10px;
+    }
+    
+    .nobox {
+      border-style: none;
+      padding: 10px;
+      background-color: transparent;
+      height: 200px;
+      text-align: center;
+      display: table;
+    }
+    
+    .answer-box {
+      border-style: none;
+    }
+    
+    .info-box {
+     font-size: 1.5rem;
+    }
+    
+    /*  used for the big page heading */
+    .center-info-box {
+      text-align: center;
+      border-style: solid;
+      border-width: 0px;
+      border-radius: 4px;
+      font-size: 3.5rem;
+      margin-right: auto;
+      margin-left: auto;
+      padding: 5px;
+    }
+    
+    .right-info-box {
+        text-align: right;
+    }
+    
+    .left-info-box {
+        text-align: left;
+    }
+    
+    .welcome-box {
+      border-style: solid;
+      border-width: 3px;
+      border-radius: 6px;
+      border-color: grey;
+      height: 200px;
+      text-align: center;
+      display: table;
+      background-color: black;
+      opacity: 1;
+      color: black;
+      background-size: cover;
+    }
+    
+    /*  used for all the big boxes in quiz section, start page and end page */
+    .question-box {
+      border-style: solid;
+      border-width: 3px;
+      border-radius: 6px;
+      border-color: grey;
+      height: 200px;
+      text-align: center;
+      display: table;
+      background-color: white;
+      opacity: 1;
+      color: black;
+      background: url(http://badgerheadgames.com/wp-content/uploads/2018/02/mobilebackgroundsm.jpg) center center;
+      background-size: cover;
+    }
+    
+    .short {
+      height: 50px;
+    }
+    
+    /*  used for all the big box text in quiz section, start page and end page */
+    .question-box-question {
+     /* display: table-cell;
+      vertical-align: middle;*/
+      color: white;
+      text-shadow: 2px 2px 5px black;
+      font-size: 2rem;
+      margin: 5px 10px;
+      padding-top: 15px;
+      display: block;
+    }
+    
+    .container {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    img {
+      object-fit: cover;
+      margin: 10px 10px;
+      max-width: 250px;
+      height: 100px;
+      text-align: center;
+      display: none;
+    }
+    
+    .img-frame {
+      vertical-align: middle;
+      display: inline-block;
+      
+    }
+    
+    fieldset { 
+      margin 0px;
+      padding-left: 0px;
+      padding-right: 0px;
+      border-style: none;
+    }
+    
+    button {
+      font-family: 'Play', Sans-Serif;
+      font-size: 2rem;
+      color: white;
+      display: block;
+      width: 90%;
+      height: 50px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0;
+      border-radius: 5px;
+      border-width: 0;
+      background-color: grey;
+      opacity: .9;
+      margin-bottom: 5px;
+    }
+    
+    button:hover {
+      background-color: white;
+      color: black;
+      width: 95%;
+    }
+    
+    .pop-up {
+      width: 250px;
+      height: 200px;
+        position: relative;
+        margin:10% auto;
+        padding: 5px;
+        border-radius: 10px;
+        border-color: white;
+      border-width: 1px;
+      border-style: solid;
+        background-color: black;
+        text-align: center;
+        display: table;
+    }
+    
+     .modal {
+      position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(0,0,0,0.6);
+        z-index: 99999;
+        }
+    
+    .pop-up-correct {
+       background-color: #afafaf;
+       color: black;
+    }
+    
+    .pop-up-text {
+      padding: 20px;
+       display: table-cell;
+      vertical-align: middle;
+      font-size: 1.6rem;
+    }
+    
+    .pop-up-button {
+      font-size: 1.6rem;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      border-radius: 10px;
+      width: 50%;
+    }
+    
+    .pop-up-button:hover {
+      width: 60%;
+      color: grey;
+      background-color: white
+    }
+    
+    .end-page-result {
+      font-size: 3rem;
+      font-weight: 900;
+    }
+    
+    .end-page-fail {
+     background-color: black
+    }
+    
+    .end-page-fail-text {
+       color: white;
+    }
+    
+    /*   Big screen styles   */
+    
+    @media only screen and (min-width: 640px) and (min-height: 450px)  {
+    
+      .question-box {
+        height: 300px;
+        background-image: none;
+        background-color: white;
+        opacity: .8;
+        color: black;
+      }
+        
+      .welcome-box {
+        background-color: white;
+        opacity: .8;
+      }
+    
+      .short {
+        height: 50px;
+      }
+    
+      .question-box-question {
+        font-size: 4rem;
+        display: table-cell;
+         color: black;
+         text-shadow: none;
+         vertical-align: middle;
+      }
+      
+      .end-page-fail {
+        background-color: black
+      }
+    
+      .end-page-fail-text {
+       color: white;
+      }
+      
+      .info-box {
+        font-size: 3rem;
+      }
+    
+      .center-info-box {
+        font-size: 5rem;
+      }
+    
+      img {
+        margin: 20px 20px;
+        max-width: 300px;
+        height: 350px;
+        display: inline-block;
+      }
+        
+      .img-frame {
+        display: table-cell;
+      }
+    
+      button {
+        font-size: 3rem;
+        height: 120px;
+        margin-top: 10px;
+        margin-bottom:10px;
+        padding: 1px;
+      }
+      
+      body {
+        background: url(http://badgerheadgames.com/wp-content/uploads/2018/02/backgroundimgbig.jpg) center center no-repeat fixed; 
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+      }
+    
+      .pop-up {
+        max-width: 900px;
+        width: 60%; 
+        height: 300px;
+        }
+    
+      .pop-up-text {
+        font-size: 4.5rem;
+      }
+    
+      .pop-up-button {
+        font-size: 4rem;
+        margin-top: 40px;
+        height: 50px;
+        width: 60%;
+      }
+    
+      .end-page-result{
+        font-size: 3.5rem;
+      }
+    }
+    
+    @media only screen and (min-width: 320px) and (max-width: 500px) and (min-height: 640px)  {
+      
+      img {
+        height: 200px;
+      }
+      
+    }
+      
+      
+    

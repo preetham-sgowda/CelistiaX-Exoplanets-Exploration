@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height">
+    <meta description="Play the Exoplanet Quiz and demonstrate your knowledge of NASA's newest discoveries!">
+    <title>Exoplanet Quiz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet">
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link href="grid.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <!-- the heading of the quiz is at the top of all the 'pages' of the app -->
+    <header role="banner">
+      <div class="row"><a name="top-of-page"></a>
+        <div class="center-info-box">Exoplanet Quiz</div>
+      </div>
+    </header>
+    <main role="main">
+      <!-- start page section shown at the very when the page loads - allows player to start quiz -->
+      <section id="start-page" class="show-section">
+        <div class="container">
+          <div class="row">
+            
+            </div>
+          </div>
+          <div class="row">
+            <div class="box col-12 question-box">
+              <img class="question-image" src="http://badgerheadgames.com/wp-content/uploads/2018/01/152_posternormalsize.jpg" alt="Exoplanet picture">
+              <div class="question-box-question">Test your knowledge by answering ten questions about the Exoplanets!</div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="info-box col-6">
+              <form name="startQuiz">
+                <button type='submit' id="js-play">Start!</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--This is the code for the quiz game section -->
+      <section id="quiz-page" class="hide-section">
+        <section id="score-and-question-number">
+          <div class="row">
+            <div class="info-box col-6 left-info-box">Score: 100</div>
+            <div class="info-box col-6 right-info-box">2/10</div>
+          </div>
+        </section>
+        <section id="quiz-question">
+          <div class="container">
+            <div class="row">
+              <div class="question-box col-12">
+                 <div class="img-frame"><img class="question-image js-image" src="http://badgerheadgames.com/wp-content/uploads/2018/01/153_Kepler_16b_preview.jpg" alt="Exoplanet picture"></div>
+              <div class="question-box-question" id="js-question">What is the relative velocity of Haley's Comet?</div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="quiz-answer-choices">
+          <div class = "row">
+            <form name="answer-choices">
+              <fieldset name="answer choices" class = "js-answers">
+              <div class="col-answer answer-box"> <button type='submit' class="js-answer1" data-answer="0">1000 mph</button></div>
+              <div class="col-answer answer-box"> <button type='submit' class="js-answer2" data-answer="1">1000 mph</button></div>
+              <div class="col-answer answer-box"> <button type='submit' class="js-answer3" data-answer="2">1000 mph</button></div>
+              <div class="col-answer answer-box"> <button type='submit' class="js-answer4" data-answer="3">1000 mph</button></div>
+              </fieldset>
+            </form>
+          </div>
+        </section>
+      </section>
+      <!--This is the pop up window that shows the player if they were correct or not -->
+      <!--The modal div darkens the background and centers the pop up for the player -->
+      <section id="results-popup" class="hide-section">
+        <div class="modal">
+          <div class="pop-up">
+            <div class="pop-up-text">
+              <div class="result-message">Sorry that was incorrect!</div>
+              <div class="correct-answer-text">The correct answer was...</div>
+              <form name="next-question">
+                <button type='submit' class="pop-up-button" id="js-next">Onward ></button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--This is the final page that tallies up results for player and allows a restart-->
+      <section id="end-page" class="hide-section">
+        <div class="container">
+          <div class="row">
+            <div class="question-box col-12">
+              <div class="img-frame"><img class="question-image" id="js-results-img" src="" alt="A space shuttle launching"></div>
+              <div class="question-box-question end-page-result" id="js-results-mission-status">Mission Complete! Let's see how you did...</div>
+            </div>
+          </div>
+          <div class="row">
+            <div id="js-results-box" class="box col-12 welcome-box"> 
+              <div id="js-results" class="question-box-question">You got 5 out of 10 correct!</div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="info-box col-12">
+              <form name="restart-quiz">
+                <button type='submit' id="js-restart">Try Again!</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="questions.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
