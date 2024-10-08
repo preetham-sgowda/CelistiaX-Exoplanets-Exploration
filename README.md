@@ -15,7 +15,8 @@ Welcome to **CelestiaX**, an interactive educational platform designed to teach 
      - **Tau Ceti e**: A potentially habitable exoplanet orbiting a nearby star.
    - Learn about their unique characteristics and why they are important in the study of astronomy.
 
-![cf8e578a167992244144caa5f9cd979439bcbec4 1](https://github.com/user-attachments/assets/5e9b1def-0b4d-4fd9-9433-f5f2f98bdcf6)
+![14c4f7b91747af7596672523a8a3ecf23908ba2e 1](https://github.com/user-attachments/assets/a4583060-1cbd-45b8-8cb4-e6c3693146a6)
+
 ![81d5ae742451067cbb50a037f7fe699da0defcc0 2](https://github.com/user-attachments/assets/833b77d2-5155-4abc-a2cf-e058b55af9d1)
 
 
