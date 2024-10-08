@@ -1,11 +1,8 @@
-Here's the README in code format:
-
-```markdown
 # CelestiaX: Discover the World of Exoplanets 🌌
 
 Welcome to **CelestiaX**, an interactive educational platform designed to teach students about exoplanets! This project uses NASA resources to bring the wonders of distant worlds to your screen, featuring a variety of interactive elements, 3D visualizations, and fun activities.
 
-![cf8e578a167992244144caa5f9cd979439bcbec4 1](https://github.com/user-attachments/assets/8c6e4391-a6cc-4e0d-a6b2-7e4850f6a9d0)
+![cf8e578a167992244144caa5f9cd979439bcbec4 1](https://github.com/user-attachments/assets/83b52a3e-d6bf-4297-bb06-8d160113352a)
 
 
 ## 🌟 Features
@@ -18,15 +15,18 @@ Welcome to **CelestiaX**, an interactive educational platform designed to teach 
      - **Tau Ceti e**: A potentially habitable exoplanet orbiting a nearby star.
    - Learn about their unique characteristics and why they are important in the study of astronomy.
 
-![14c4f7b91747af7596672523a8a3ecf23908ba2e 1](https://github.com/user-attachments/assets/81b7d992-6b27-48ae-a098-475c34321547)
-![81d5ae742451067cbb50a037f7fe699da0defcc0 1](https://github.com/user-attachments/assets/57fa496c-318b-49bf-87b0-fc09018120d9)
+![cf8e578a167992244144caa5f9cd979439bcbec4 1](https://github.com/user-attachments/assets/5e9b1def-0b4d-4fd9-9433-f5f2f98bdcf6)
+![81d5ae742451067cbb50a037f7fe699da0defcc0 2](https://github.com/user-attachments/assets/833b77d2-5155-4abc-a2cf-e058b55af9d1)
+
 
 ### 2. **3D View of the Solar System**
    - Navigate through our solar system in an immersive 3D experience.
    - Compare and contrast our planets with distant exoplanets to gain a better understanding of their properties.
 
-![456e670beca11ff52175549273a257165a5f4756 1](https://github.com/user-attachments/assets/0d782d58-64ab-4097-a15d-142eebee5b9d)
-![370ae3396389f81ea55721a22910730f138dd1aa 1](https://github.com/user-attachments/assets/7ea57d70-1d83-490b-ad49-4162aebc5122)
+![456e670beca11ff52175549273a257165a5f4756 1](https://github.com/user-attachments/assets/17439e3b-2460-4077-b908-0398295c4dc1)
+![370ae3396389f81ea55721a22910730f138dd1aa 1](https://github.com/user-attachments/assets/44a58dd5-a7ff-41cc-bc22-459f5210f7b6)
+
+
 
 ### 3. **Explore Section**
    - **Facts**: Discover mind-blowing facts about exoplanets and how they are discovered.
@@ -37,14 +37,16 @@ Welcome to **CelestiaX**, an interactive educational platform designed to teach 
    - **Quiz**: Test your knowledge about exoplanets with our interactive quiz.
    - **Check Your Weight**: Find out how much you would weigh on different exoplanets based on their gravity.
 
-![52a02f8df5d9fa7fd13afa4f167e9888387517bd 1](https://github.com/user-attachments/assets/48fce367-23e4-4180-90c1-ad0cdd9ad812)
-![9dcd6c3c747adf94338b01870422ca13f0a5ab88 1](https://github.com/user-attachments/assets/705aa838-6eef-4177-b78a-591fd0b43bc3)
+![52a02f8df5d9fa7fd13afa4f167e9888387517bd 2](https://github.com/user-attachments/assets/519fce4c-5897-4738-be55-5c40f97c41e8)
+![9dcd6c3c747adf94338b01870422ca13f0a5ab88 1](https://github.com/user-attachments/assets/2ca539bd-e365-4508-97b8-a519751a77f9)
+
+
 
 ### 5. **3D Visualizations of Exoplanets**
    - Experience detailed 3D models of exoplanets such as **Kepler-452b** and **WASP-12b**.
    - Each exoplanet model is powered by NASA's visualization tools for an accurate and immersive experience.
 
-![IMG-20241008-WA0002 1](https://github.com/user-attachments/assets/fcc14cd3-7c8d-4f81-be6c-48b85339226d)
+![IMG-20241008-WA0002 1](https://github.com/user-attachments/assets/dbe3b25c-f213-4a9a-8c75-0a04e64102af)
 
 
 ## 🚀 Technologies Used
@@ -61,7 +63,7 @@ Welcome to **CelestiaX**, an interactive educational platform designed to teach 
    ```bash
    cd celestiax
    ```
-3. Open `index.html` in your browser to explore the project locally:
+3. Open `/home/index.html` in your browser to explore the project locally:
    ```bash
    open /home/index.html
    ```
